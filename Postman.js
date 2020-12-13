@@ -95,11 +95,6 @@ submit.addEventListener("click", () => {
     data = document.getElementById("JsonRequest").value;
   }
 
-  // console.log("url is ", input_url);
-  // console.log("requestType is ", request_type);
-  // console.log("contentType is ", content_type);
-  // console.log("data is ", data);
-
   if (request_type == "GET") {
     fetch(input_url, {
       method: "GET",
