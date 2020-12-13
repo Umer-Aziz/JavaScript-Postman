@@ -101,7 +101,7 @@ submit.addEventListener("click", () => {
     })
       .then((response) => response.text())
       .then((text) => {
-        // document.getElementById('responseJsonText').value = text;
+        
         document.getElementById("resPrism").innerHTML = text;
         Prism.highlightAll();
       });
@@ -115,7 +115,7 @@ submit.addEventListener("click", () => {
     })
       .then((response) => response.text())
       .then((text) => {
-        // document.getElementById('responseJsonText').value = text;
+   
         document.getElementById("resPrism").innerHTML = text;
         Prism.highlightAll();
       });
