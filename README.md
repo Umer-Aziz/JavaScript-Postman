@@ -1,5 +1,5 @@
 # JavaScript-Postman
-javaScript Postman to request  for data using GET and POST method
+javaScript Postman fetching data using get and post method.
 
 SCREENSHOT
 
