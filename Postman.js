@@ -125,7 +125,6 @@ submit.addEventListener("click", () => {
 let clear = document.getElementById("clear");
 clear.addEventListener("click", () => {
   if(confirm("Do You want to Clear All?")){
-    console.clear()
     window.location.reload()
   }
 });
